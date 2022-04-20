@@ -27,7 +27,7 @@ html {
 }
 
 body {
-  font-family: "Inter", sans-serif;
+  font-family: "Rubik", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #555;
@@ -149,6 +149,18 @@ body {
   background-color: #0d5da2;
   transform: scale(1.03);
   transition: all 0.12s ease-in-out;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
+
+.logo-text {
+  font-size: 2.4rem;
+  font-weight: 700;
 }
 
 /* ************************************** */
