@@ -84,12 +84,12 @@ body {
 .btn--full:visited {
   color: #fff;
   background-color: #0e67b4;
+  box-shadow: 10px 10px 50px 10px rgba(0, 0, 0, 0.07);
 }
 
 .btn--full:hover,
 .btn--full:active {
   background-color: #0d5da2;
-  box-shadow: 10px 10px 50px 10px rgba(0, 0, 0, 0.07);
 }
 
 .btn--outline:link,
@@ -106,7 +106,8 @@ body {
 }
 
 .hero-img {
-  width: 90%;
+  width: 160%;
+  border-radius: 9px;
 }
 
 .margin-right-sm {
@@ -156,6 +157,6 @@ body {
 
 .heart {
   width: 4.8rem;
-  height: 4.3rem;
+  height: 4.8rem;
   color: #0e67b4;
 }
