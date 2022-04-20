@@ -1,11 +1,11 @@
 var element = document.getElementById("spin");
+element.innerHTML = "seabirds";
 text = ["dolphins", "whales", "turtles", "seabirds"];
-element.innerHTML = text[0];
 let timer = 0;
 
 setInterval(function () {
   element.innerHTML = text[timer];
-  element.className = "";
+  element.className = "spin";
   if (timer % 4 == 0) {
     element.classList.add("dolphins");
   }
