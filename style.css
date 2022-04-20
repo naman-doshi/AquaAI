@@ -167,7 +167,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 9.6rem;
-  align-items: center;
+  align-items: right;
 }
 
 .hero-description {
@@ -178,8 +178,14 @@ body {
 }
 
 .hero-img {
-  width: 165%;
+  width: 160%;
   border-radius: 9px;
+  position: absolute;
+}
+
+.hero-img-box {
+  position: relative;
+  overflow: visible;
 }
 
 .spin {
