@@ -24,7 +24,3 @@ setInterval(function () {
     timer++;
   }
 }, 2000);
-
-function fadeInUp(elem) {}
-
-function fadeOutUp(elem) {}

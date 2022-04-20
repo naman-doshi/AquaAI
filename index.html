@@ -18,6 +18,7 @@
     />
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
     <title>AquaAI — Keeping our oceans alive.</title>
   </head>
   <body>
@@ -53,7 +54,8 @@
             <div class="stat-box">
               <ion-icon name="heart-circle-sharp" class="heart"></ion-icon>
               <p class="stat">
-                <span class="hero-stat">1,600,000</span> lives saved every year!
+                <span id="cx1" class="hero-stat">0</span> lives saved every
+                year!
               </p>
             </div>
           </div>
@@ -72,5 +74,6 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
     <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="cs.js"></script>
   </body>
 </html>
