@@ -23,7 +23,7 @@ setInterval(function () {
   } else {
     timer++;
   }
-}, 2500);
+}, 2000);
 
 function fadeInUp(elem) {}
 
