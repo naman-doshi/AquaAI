@@ -9,3 +9,5 @@ Accent: #7ABCF5
 ### NAV
 
 Logo, AquaAI, Problem, Mission, Solution, Join the beta!
+
+### ISSUE
