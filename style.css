@@ -312,8 +312,8 @@ body {
   grid-auto-columns: 1fr;
   grid-column-gap: 3.2rem;
   grid-row-gap: 3.2rem;
-  grid-template-columns: repeat(4, 300px);
-  grid-template-rows: repeat(3, 300px);
+  grid-template-columns: repeat(4, 260px);
+  grid-template-rows: repeat(3, 260px);
 }
 
 .section-issue {
@@ -473,7 +473,7 @@ body {
   mask-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
   background-image: url(img/ocean-pattern.jpeg);
   background-size: cover;
-  height: 40%;
+  height: 30%;
   width: 100%;
   align-self: flex-end;
 }
@@ -485,7 +485,7 @@ body {
 }
 
 .grid-3-text {
-  height: 60%;
+  height: 70%;
   color: white;
   padding: 2.4rem;
   display: flex;
@@ -550,4 +550,69 @@ body {
   overflow: clip;
   background-image: url(img/ghost.jpeg);
   background-size: cover;
+}
+
+/* ************************************** */
+/* MISSION */
+/* ************************************** */
+
+.subh {
+  margin-bottom: 5.6rem;
+}
+
+.section-mission {
+  margin-top: 9.6rem;
+  background-color: #d7ebfc;
+  display: grid;
+  grid-template-columns: 45fr 55fr;
+  align-items: center;
+}
+
+.mission-container {
+  padding: 9.6rem;
+}
+
+.mission-image {
+  background-image: url(img/product-pic.png);
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: left bottom;
+  border-radius: 24px 0 0 24px;
+  overflow: hidden;
+}
+
+.mission-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 5.6rem;
+  flex-direction: column;
+}
+
+.mission-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #d7ebfc;
+  background-color: #0e67b4;
+  padding: 1.2rem;
+  border-radius: 100%;
+}
+
+.mission-item {
+  margin-left: 3rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.mission-list li {
+  display: grid;
+  grid-template-columns: 4.2rem 1fr;
+  align-items: center;
+  justify-content: center;
+}
+
+.bold {
+  color: #0e67b4;
+  font-weight: 700;
 }
