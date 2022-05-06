@@ -111,8 +111,6 @@ function main() {
       camera.updateProjectionMatrix();
     }
 
-    scene.rotation.y += 0.00005;
-
     renderer.render(scene, camera);
 
     requestAnimationFrame(render);
