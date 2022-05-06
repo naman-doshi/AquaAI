@@ -19,6 +19,10 @@
     <link rel="icon" type="image/x-icon" href="/img/favicon.ico" />
     <link rel="stylesheet" href="style.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/three.min.js"></script>
+    <script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/js/controls/OrbitControls.js"></script>
+    <script src="https://threejsfundamentals.org/threejs/resources/threejs/r105/js/loaders/GLTFLoader.js"></script>
+    <script src="https://threejsfundamentals.org/threejs/../3rdparty/dat.gui.min.js"></script>
     <title>AquaAI — Keeping our oceans alive.</title>
   </head>
   <body>
@@ -32,7 +36,7 @@
           <li><a class="main-nav-link" href="#">The Issue</a></li>
           <li><a class="main-nav-link" href="#">Mission</a></li>
           <li><a class="main-nav-link" href="#">AquaAI</a></li>
-          <li><a class="main-nav-link" href="#">How it works</a></li>
+          <li><a class="main-nav-link" href="#">The App</a></li>
           <li><a class="main-nav-link" href="#">Security</a></li>
           <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
         </ul>
@@ -164,7 +168,7 @@
               <ion-icon name="pulse" class="mission-icon"></ion-icon>
               <span class="mission-item">
                 Save more than <span class="bold">1,600,000 lives</span> of
-                endangered aquatic species every year
+                endangered aquatic species every year.
               </span>
             </li>
             <li class="point-2">
@@ -172,7 +176,7 @@
               <span class="mission-item">
                 Rescue critically endangered species
                 <span class="bold">from the brink of extinction</span> &
-                preserve biodiversity
+                preserve biodiversity.
               </span>
             </li>
             <li class="point-3">
@@ -181,19 +185,74 @@
                 <span class="bold"
                   >Eradicate unsustainable commercial fishing practices</span
                 >
-                with strict enforcement
+                with strict enforcement.
               </span>
             </li>
             <li class="point-4">
               <ion-icon name="happy" class="mission-icon"></ion-icon>
               <span class="mission-item">
                 <span class="bold">Raise awareness</span> about the preservation
-                efforts of endangered aquatic species
+                efforts of endangered aquatic species.
               </span>
             </li>
           </ul>
         </div>
         <div class="mission-image"></div>
+      </section>
+
+      <section class="section-aquaai">
+        <div class="mission-image aquaai-img">
+          <canvas id="c"></canvas>
+        </div>
+        <div class="mission-container">
+          <span class="subheading">Product</span>
+          <h2 class="heading-secondary subh">
+            AquaAI — the intelligent way to save our oceans.
+          </h2>
+          <ul class="mission-list aquaai-list">
+            <li class="point-1">
+              <ion-icon name="pulse" class="mission-icon"></ion-icon>
+              <span class="mission-item">
+                Mimics animals' sounds, releases pheromones, and visually
+                <span class="bold"
+                  >deters endangered aquatic species away from fishing
+                  nets.</span
+                >
+              </span>
+            </li>
+            <li class="point-2">
+              <ion-icon name="sparkles" class="mission-icon"></ion-icon>
+              <span class="mission-item">
+                Range of <span class="bold">100km+</span>, speeds exceeding
+                <span class="bold">200km/h.</span>
+              </span>
+            </li>
+            <li class="point-3">
+              <ion-icon name="skull" class="mission-icon"></ion-icon>
+              <span class="mission-item">
+                Communicates with
+                <span class="bold"
+                  >solar-powered access points using sonar.</span
+                >
+              </span>
+            </li>
+            <li class="point-4">
+              <ion-icon name="happy" class="mission-icon"></ion-icon>
+              <span class="mission-item">
+                <span class="bold">1500 pods</span> covering an area of
+                <span class="bold">47 million square kilometres.</span>
+              </span>
+            </li>
+
+            <li class="point-5">
+              <ion-icon name="happy" class="mission-icon"></ion-icon>
+              <span class="mission-item">
+                Users <span class="bold">can interact with AquaAI</span> in
+                real-time via an app.
+              </span>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <script
@@ -204,7 +263,6 @@
       nomodule
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
     ></script>
-    <script type="text/javascript" src="script.js"></script>
-    <script type="text/javascript" src="cs.js"></script>
+    <script src="script1.js"></script>
   </body>
 </html>
