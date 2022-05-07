@@ -154,6 +154,7 @@ body {
 
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
 }
 
 .grid--4-cols {
@@ -173,8 +174,6 @@ body {
 .heading-tertiary {
   font-weight: 700;
   color: #333;
-  /* color: #45260a; */
-  /* color: #343a40; */
   letter-spacing: -0.5px;
 }
 
@@ -803,4 +802,101 @@ body {
 .step-img {
   width: 35%;
   /* z-index: 10; */
+}
+
+/* ************************************** */
+/* ETHICS */
+/* ************************************** */
+
+.section-ethics {
+  padding: 9.6rem 0;
+}
+
+.principle {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.principle:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.principle-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.principle-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #333;
+  border-radius: 100px;
+  font-weight: 600;
+}
+
+.tag--unbiased {
+  background-color: #0e67b4;
+  color: white;
+}
+.tag--reliable {
+  background-color: #008080;
+  color: white;
+}
+.tag--secure {
+  background-color: #7abcf5;
+  color: white;
+}
+.tag--access {
+  background-color: #12b886;
+  color: white;
+}
+
+.tag--transparent {
+  background-color: #a020f0;
+  color: white;
+}
+
+.principle-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.principle-attributes {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.principle-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.principle-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #0e67b4;
+}
+
+.principle-img {
+  width: 100%;
+}
+
+.center-text {
+  text-align: center;
 }
