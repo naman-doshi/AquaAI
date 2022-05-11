@@ -747,6 +747,7 @@ body {
 
 .aquaai-list {
   gap: 3.6rem;
+  margin-bottom: 5.6rem;
 }
 
 .aquaai-div {
@@ -1153,4 +1154,9 @@ body {
 .footer-link:hover,
 .footer-link:active {
   color: #555;
+}
+
+.smalls {
+  margin-top: 3.6rem;
+  font-size: 1.2rem;
 }
