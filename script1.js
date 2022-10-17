@@ -72,7 +72,7 @@ function main() {
 
   {
     const gltfLoader = new THREE.GLTFLoader();
-    gltfLoader.load("./img/rr.gltf", (gltf) => {
+    gltfLoader.load("./img/aquaaipod.gltf", (gltf) => {
       const root = gltf.scene;
       scene.add(root);
 
